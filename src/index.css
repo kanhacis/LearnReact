@@ -1,0 +1,17 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom checkbox styling */
+.test:checked {
+  background-color: #abaabf; /* indigo-600 hex color */
+  border-color: #93939a;     /* indigo-600 border color */
+}
